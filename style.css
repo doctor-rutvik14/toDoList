@@ -1,0 +1,35 @@
+*{
+    font-family: "Roboto Mono", monospace;
+    margin: 12px;
+}
+h1{
+    color: #1abcb9;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+button#add {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#add:hover {
+    background-color: #45a049;
+}
+.remove{
+    margin-left: 12px;
+    background: white;
+    color: rgb(167, 34, 34);
+    border: none;
+    cursor: pointer;
+}
