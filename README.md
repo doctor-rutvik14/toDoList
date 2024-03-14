@@ -31,10 +31,10 @@ https://to-do-list14.vercel.app/
 - $(".remove"): This jQuery selector selects all elements with the class "remove".
 
 ### Event Handling
-- .on("click", function() {...}): This attaches a click event handler to all elements with the class "remove". When this element is clicked, the function inside the .on() method is executed.
+- .on("click", function() {...}): This attaches a click event handler to element with the class "remove". When this element is clicked, the function inside the .on() method is executed.
 
 ### Handling Click Events
-- function() {...}: This is a function that executes when a click event occurs on an element with the class "remove".
+- function() {...}: This function executes when a click event occurs on an element with the class "remove".
 
 ### Removing Parent Elements
 - $(this): This refers to the specific element that triggered the click event (i.e., the element with the class "remove" that was clicked).
