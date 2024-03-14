@@ -22,7 +22,7 @@ https://to-do-list14.vercel.app/
 - $(element).append("<button>...</button>"): This appends a button element with the class "remove" and the text "X" inside bold tags as a child of the newly created list item element.
 
 ### Appending to Parent Element
-- $("#mylist").append(element): This appends the newly created list item element (with the button inside it) to the ordered list (<ol>) element with the ID "mylist".
+- $("#mylist").append(element): This appends the newly created list item element (with the button inside it) to 'the ordered list' element with the ID "mylist".
 
 ### Clearing Input Field
 - $("input").val(""): This clears the input field by setting its value to an empty string.
